@@ -1,5 +1,5 @@
 import React from 'react'
-import './navigationBar.css'
+import './navbar.css'
 import { Navbar } from 'react-bootstrap'
 import { Nav } from 'react-bootstrap'
 import { navigationLinks } from '../../helpers/navigationLinks'
@@ -11,11 +11,11 @@ function createLinks(){
     ))
 }
 
-function NavigationBar() {
+function NavBar() {
     return (
         <div id='home'>
             <Navbar className='navigation_container' expand='md'>
-                <Navbar.Brand href="#home">Stephanie Clark</Navbar.Brand>
+                <Navbar.Brand href="#home">Welcome.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='links'>
@@ -27,4 +27,4 @@ function NavigationBar() {
     )
 }
 
-export default NavigationBar
+export default NavBar
