@@ -5,15 +5,15 @@
     justify-content: center;
 }
 .show_bg {
-    background: url("../../assets/images/moving-clouds.gif") no-repeat center center fixed;
+    background: url("../../assets/images/orange-mountains.gif") no-repeat center center fixed;
     background-size: cover;
-    height: 94vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    opacity: 20%;
+    opacity: 60%;
 }
 .container {
     position: absolute;
@@ -45,6 +45,7 @@
     border-top: 1px solid green;
     height: 5px;
     background-color: transparent;
+    width: 100%;
 }
 .desc {
     font-style: italic;

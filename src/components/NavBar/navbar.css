@@ -23,5 +23,5 @@
     margin: 0 1rem;
 }
 .links a:hover{
-    background-color: var(--font-color-hover);
+    font-weight: 900;
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import clouds from '../../assets/images/moving-clouds.gif'
 import resume from '../../assets/STEPHANIE_CLARK_CV.pdf'
 import './header.css'
 

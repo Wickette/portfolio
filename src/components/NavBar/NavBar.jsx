@@ -14,7 +14,10 @@ function createLinks(){
 function NavBar() {
     return (
         <div id='home'>
-            <Navbar className='navigation_container' expand='md'>
+            <Navbar className='navigation_container' 
+            style={{ zIndex: '2', textAlign: 'center', position: 'fixed', top: '0', width: '100%'}}
+            collapseOnSelect
+            expand='md'>
                 <Navbar.Brand href="#home">Welcome.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
