@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4e6fa86d.css",
+    "main.js": "/portfolio/static/js/main.07a30a86.js",
+    "static/js/787.cf250828.chunk.js": "/portfolio/static/js/787.cf250828.chunk.js",
+    "static/media/moving-clouds.gif": "/portfolio/static/media/moving-clouds.656e6dc568e1e575f224.gif",
+    "static/media/STEPHANIE_CLARK_CV.pdf": "/portfolio/static/media/STEPHANIE_CLARK_CV.4a3f1676b3d5ac42c063.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.4e6fa86d.css.map": "/portfolio/static/css/main.4e6fa86d.css.map",
+    "main.07a30a86.js.map": "/portfolio/static/js/main.07a30a86.js.map",
+    "787.cf250828.chunk.js.map": "/portfolio/static/js/787.cf250828.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6fa86d.css",
+    "static/js/main.07a30a86.js"
+  ]
+}
