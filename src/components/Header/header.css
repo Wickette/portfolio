@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .show_bg {
-    background: url("../../assets/images/orange-mountains.gif") no-repeat center center fixed;
+    background: url("../../assets/images/glitter.gif") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -25,12 +25,12 @@
     font-weight: 900;
 }
 .nine h1 {
-    text-align:center; font-size:100px; text-transform:uppercase; color: green; letter-spacing:1px;
+    text-align:center; font-size:100px; text-transform:uppercase; color: var(--nav-color); letter-spacing:1px;
     font-family:"Playfair Display", serif; font-weight:400;
 }
 .nine h1 span {
     margin-top: 5px;
-    font-size:15px; color:green; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+    font-size:15px; color:var(--nav-color); word-spacing:1px; font-weight:normal; letter-spacing:2px;
     text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -41,8 +41,8 @@
 .nine h1 span:after,.nine h1 span:before {
     content: " ";
     display: block;
-    border-bottom: 1px solid green;
-    border-top: 1px solid green;
+    border-bottom: 1px solid var(--nav-color);
+    border-top: 1px solid var(--nav-color);
     height: 5px;
     background-color: transparent;
     width: 100%;
@@ -58,7 +58,7 @@
     font-size: 25px;
     width: 8em;
     height: 2em;
-    color: green;
+    color: var(--nav-color);
     border-left: 0.08em solid;
     position: relative;
     margin-top: 0.8em;
@@ -90,7 +90,7 @@
     top: -10%;
     box-sizing: border-box;
     border: 0.08em solid;
-    background-color: black;
+    background-color: var(--nav-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +101,10 @@
 }
 a{
     text-decoration: none;
-    color: green;
+    color: var(--font-color);
+}
+a:hover{
+    color: wheat;
 }
 .btn:hover span {
     transform: translateX(0.15em);
