@@ -6,6 +6,11 @@
     height:100vh;
     background-color: var(--font-color);
 }
+@media screen and (max-width: 600px) {
+    .about_container{
+        height: auto;
+    }
+}
 .about_container img{
     border-radius: 50%;
     border: 0.5px solid rga(218, 218, 218);

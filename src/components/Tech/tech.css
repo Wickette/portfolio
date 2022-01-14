@@ -8,6 +8,11 @@
     padding: 3rem;
     height: 100vh;
 }
+@media screen and (max-width: 600px) {
+    .tech_container{
+        height: auto;
+    }
+}
 .tech_cards_container{
     display: flex;
     align-items: center;

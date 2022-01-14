@@ -21,7 +21,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: rgba(211, 164, 11, 0.87);
     font-weight: 900;
 }
 .nine h1 {
@@ -85,11 +84,11 @@
     filter: brightness(0.6);
 }
 .btn span {
+    margin-left: 7px;
     position: relative;
     height: 120%;
     top: -10%;
     box-sizing: border-box;
-    border: 0.08em solid;
     background-color: var(--nav-color);
     display: flex;
     align-items: center;
@@ -98,6 +97,7 @@
     text-transform: capitalize;
     transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
     transition: 0.3s;
+    border: var(--font-color) solid 3px;
 }
 a{
     text-decoration: none;
