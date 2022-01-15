@@ -6,7 +6,7 @@
     cursor: pointer;
 }
 .portfolioList:hover{
-    background-color: blue;
+    background-color: var(--purple);
     color: white;
 }
 @media(max-width: 600px) {

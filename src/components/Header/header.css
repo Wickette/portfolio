@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .show_bg {
-    background: url('../../assets/images/b072b454c263e9ebe2ab3063b4907480.gif') no-repeat center center fixed;
+    background: url('../../assets/images/wp9078348-4k-pc-landscape-wallpapers.png') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    opacity: 85%;
+    opacity: 70%;
 }
 .container {
     position: absolute;
@@ -24,26 +24,34 @@
     font-weight: 900;
 }
 .nine h1 {
-    text-align:center; font-size:100px; text-transform:uppercase; color: var(--nav-color); letter-spacing:1px;
-    font-family:'Playfair Display', serif; font-weight:400;
+    text-align:center; 
+    font-size:75px; 
+    text-transform:uppercase; 
+    color: var(--dark-blue); 
+    font-family:'Playfair Display', serif; 
+    font-weight:900;
+    margin-top: -150px;
 }
 .nine h1 span {
     margin-top: 5px;
-    font-size:15px; color:var(--nav-color); word-spacing:1px; font-weight:normal; letter-spacing:2px;
-    text-transform: uppercase; font-family:'Raleway', sans-serif; font-weight:500;
+    font-size:15px; 
+    color:var(--dark-blue); 
+    letter-spacing:2px;
+    text-transform: uppercase; 
+    font-family:'Raleway', sans-serif; 
+    font-weight:900;
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     grid-template-rows: 27px 0;
-    grid-gap: 20px;
+    grid-gap: 50px;
     align-items: center;
 }
-.nine h1 span:after,.nine h1 span:before {
+.nine h1 span:after, .nine h1 span:before {
     content: ' ';
     display: block;
-    border-bottom: 1px solid var(--nav-color);
-    border-top: 1px solid var(--nav-color);
+    border-bottom: 1px solid var(--dark-blue);
+    border-top: 1px solid var(--dark-blue);
     height: 5px;
-    background-color: transparent;
     width: 100%;
 }
 .desc {
@@ -57,7 +65,7 @@
     font-size: 25px;
     width: 8em;
     height: 2em;
-    color: var(--nav-color);
+    color: var(--dark-blue);
     border-left: 0.08em solid;
     position: relative;
     margin-top: 0.8em;
@@ -86,10 +94,11 @@
 .btn span {
     margin-left: 7px;
     position: relative;
-    height: 120%;
-    top: -10%;
+    height: 100px;
+    width: 100px;
+    top: -100%;
     box-sizing: border-box;
-    background-color: var(--nav-color);
+    background-color: var(--peach);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,15 +106,18 @@
     text-transform: capitalize;
     transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
     transition: 0.3s;
-    border: var(--font-color) solid 3px;
+    /* border: var(--dark-blue) solid 3px; */
+    border-radius: 50%;
 }
 a{
     text-decoration: none;
-    color: var(--font-color);
+    color: var(--dark-blue);
 }
 a:hover{
-    color: wheat;
+    color: var(--peach);
 }
 .btn:hover span {
+    border: var(--dark-blue) solid 3px;
     transform: translateX(0.15em);
+    background-color: var(--dark-blue);
 }

@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     height:100vh;
-    background-color: var(--font-color);
+    background-color: var(--pale-blue) ;
 }
 .small-picture{
     background-image: url('../../assets/images/profile-pic.jpg');
@@ -13,4 +13,13 @@
     .about_container{
         height: auto;
     }
+}
+.get-in-touch{
+    background-color: var(--dark-blue);
+}
+.get-in-touch a{
+    color: var(--sky-blue);
+}
+.get-in-touch a:hover{
+    color: var(--peach)
 }

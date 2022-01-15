@@ -58,17 +58,12 @@ textarea{
 button {
     border: none;
     padding: 15px;
-    background-color: chartreuse;
+    background-color: var(--sky-blue);
     color: white;
     font-weight: 500;
+    border-radius: 10px;
 }
-.cont2 {
-    border: none;
-    padding: 15px;
-    background-color: black;
-    color: white;
-    font-weight: 500;
-}
+
 @media screen and (max-width: 480px) {
     .contact_wrapper {
         flex-direction: column;

@@ -1,9 +1,9 @@
 .navigation_container{
-    background-color: var(--nav-color);
-    color: white;
+    background-color: var(--dark-blue);
+    color: var(--peach);
 }
 .navbar-light .navbar-nav .nav-link{
-    color: var(--font-color) !important;
+    color: var(--peach) !important;
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -14,7 +14,7 @@
     margin-left: 1rem;
 }
 .navbar-light .navbar-brand{
-    color: var(--font-color) !important;
+    color: var(--peach) !important;
 }
 .navbar-light .navbar-toggler-icon{
     filter: invert(1);
