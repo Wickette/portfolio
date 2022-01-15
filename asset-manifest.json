@@ -1,17 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4e6fa86d.css",
-    "main.js": "/portfolio/static/js/main.07a30a86.js",
+    "main.css": "/portfolio/static/css/main.089384dd.css",
+    "main.js": "/portfolio/static/js/main.a3ca0a91.js",
     "static/js/787.cf250828.chunk.js": "/portfolio/static/js/787.cf250828.chunk.js",
-    "static/media/moving-clouds.gif": "/portfolio/static/media/moving-clouds.656e6dc568e1e575f224.gif",
+    "static/media/atouchofspace.gif": "/portfolio/static/media/atouchofspace.928784cef16d2d93cb96.gif",
+    "static/media/teachthrutalk.gif": "/portfolio/static/media/teachthrutalk.96b8a2782e380e55de9b.gif",
+    "static/media/teamsummarygenerator.gif": "/portfolio/static/media/teamsummarygenerator.d6b16f12b0eafd41fbd5.gif",
+    "static/media/employeemanagement.gif": "/portfolio/static/media/employeemanagement.44d5d09b2727f47802ad.gif",
+    "static/media/devspace.gif": "/portfolio/static/media/devspace.72dfe7b6a60ee838d508.gif",
+    "static/media/glitter.gif": "/portfolio/static/media/glitter.22beaa445a4c170e1e00.gif",
+    "static/media/techblog.gif": "/portfolio/static/media/techblog.649c34692d7c24fa4b23.gif",
+    "static/media/readmegenerator.gif": "/portfolio/static/media/readmegenerator.ebab147b8b48c1d9b283.gif",
+    "static/media/passwordgenerator.gif": "/portfolio/static/media/passwordgenerator.9fc67c6fe8d21833f7da.gif",
+    "static/media/profile-pic.jpg": "/portfolio/static/media/profile-pic.1acfab600c49bcda723c.jpg",
+    "static/media/happeningweather.gif": "/portfolio/static/media/happeningweather.b16c884ac72826d99694.gif",
+    "static/media/devspace.png": "/portfolio/static/media/devspace.a0254fca48c06f8424ef.png",
+    "static/media/teachthrutalk.png": "/portfolio/static/media/teachthrutalk.198d956e04591b609c69.png",
     "static/media/STEPHANIE_CLARK_CV.pdf": "/portfolio/static/media/STEPHANIE_CLARK_CV.4a3f1676b3d5ac42c063.pdf",
+    "static/media/employeemanagement.png": "/portfolio/static/media/employeemanagement.d7cdfa01a74e077f04d4.png",
+    "static/media/readmegenerator.png": "/portfolio/static/media/readmegenerator.e6ac1c705fd5715894d5.png",
+    "static/media/atouchofspace.png": "/portfolio/static/media/atouchofspace.1e655c300381be7d851e.png",
+    "static/media/teamsummarygenerator.png": "/portfolio/static/media/teamsummarygenerator.0c6e4181bbab8615fc56.png",
+    "static/media/passwordgenerator.png": "/portfolio/static/media/passwordgenerator.67552c4b754e4a1b81bb.png",
+    "static/media/happeningweather.png": "/portfolio/static/media/happeningweather.de5b12f517042ab0cc12.png",
+    "static/media/techblog.png": "/portfolio/static/media/techblog.ee5ed07f53ad4674a911.png",
     "index.html": "/portfolio/index.html",
-    "main.4e6fa86d.css.map": "/portfolio/static/css/main.4e6fa86d.css.map",
-    "main.07a30a86.js.map": "/portfolio/static/js/main.07a30a86.js.map",
+    "main.089384dd.css.map": "/portfolio/static/css/main.089384dd.css.map",
+    "main.a3ca0a91.js.map": "/portfolio/static/js/main.a3ca0a91.js.map",
     "787.cf250828.chunk.js.map": "/portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e6fa86d.css",
-    "static/js/main.07a30a86.js"
+    "static/css/main.089384dd.css",
+    "static/js/main.a3ca0a91.js"
   ]
 }
