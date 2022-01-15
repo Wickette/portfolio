@@ -9,3 +9,8 @@
     background-color: blue;
     color: white;
 }
+@media(max-width: 600px) {
+    .portfolioList {
+        margin-right: 10px;
+    }
+}

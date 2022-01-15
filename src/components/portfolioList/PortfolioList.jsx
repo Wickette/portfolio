@@ -1,9 +1,9 @@
-import "./portfolioList.css";
+import './portfolioList.css';
 
 export default function PortfolioList({ id, title, active, setSelected }) {
   return (
     <li
-      className={active ? "portfolioList active" : "portfolioList"}
+      className={active ? 'portfolioList active' : 'portfolioList'}
       onClick={() => setSelected(id)}
     >
       {title}

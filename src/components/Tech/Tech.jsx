@@ -13,7 +13,7 @@ const Tech = () => {
                     console.log(value)
                     return (
                     <div className='tech_card' key={index}>
-                        <img className='tech_icons' src={value.iconName} alt="tech icon" />
+                        <img className='tech_icons' src={value.iconName} alt='tech icon' />
                         <span style={{margin: '5px', fontSize: '1.5rem'}}>{value.name}</span>
                     </div>
                     )

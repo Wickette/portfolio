@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import PortfolioList from "../portfolioList/PortfolioList";
-import "./portfolio.css";
+import { useEffect, useState } from 'react';
+import PortfolioList from '../portfolioList/PortfolioList';
+import './portfolio.css';
 import {
     featuredPortfolio,
     frontendPortfolio,
@@ -9,39 +9,39 @@ import {
 } from '../../helpers/portfolioData';
 
 export default function Portfolio() {
-  const [selected, setSelected] = useState("featured");
+  const [selected, setSelected] = useState('featured');
   const [data, setData] = useState([]);
   const list = [
     {
-        id: "featured",
-        title: "featured",
+        id: 'featured',
+        title: 'featured',
     },
     {
-      id: "frontend",
-      title: "frontend",
+      id: 'frontend',
+      title: 'frontend',
     },
     {
-      id: "backend",
-      title: "backend",
+      id: 'backend',
+      title: 'backend',
     },
     {
-      id: "fullstack",
-      title: "fullstack",
+      id: 'fullstack',
+      title: 'fullstack',
     }
   ];
 
   useEffect(() => {
     switch (selected) {
-    case "featured":
+    case 'featured':
         setData(featuredPortfolio);
         break;
-      case "frontend":
+      case 'frontend':
         setData(frontendPortfolio);
         break;
-      case "backend":
+      case 'backend':
         setData(backendPortfolio);
         break;
-      case "fullstack":
+      case 'fullstack':
         setData(fullstackPortfolio);
         break;
       default:
@@ -50,7 +50,7 @@ export default function Portfolio() {
   }, [selected]);
 
   return (
-    <div className="portfolio_main" id="portfolio">
+    <div className='portfolio_main' id='portfolio'>
       <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
@@ -62,31 +62,23 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-
-   
-    
-
     {data.map((d, index) => (
-
-<div className="blog_card_container">
-<div class="blog-card">
-    <div class="meta">
-      <div class="photo"><img src={d.image} alt="" /></div>
-      <ul class="details">
-        <li class="author"><a href={d.deployedLink}>Deployed URL</a></li>
-        <li class="date"><a href={d.codeLink}>Code Link</a></li>
-      </ul>
-    </div>
-    <div class="description">
-      <h1>{d.title}</h1>
-      <h2>Opening a door to the future</h2>
-      <p> {d.summary}</p>
-      <p class="read-more">
-        <a href="#">Read More</a>
-      </p>
-    </div>
-  </div>
-</div>     
+      <div className='blog_card_container' key={index}>
+        <div class='blog-card'>
+            <div class='meta'>
+              <div class='photo'><img src={d.image} alt='' /></div>
+              <ul class='details'>
+                <li class='deployedLink'><a href={d.deployedLink}>Deployed URL</a></li>
+                <li class='codeLink'><a href={d.codeLink}>Code Link</a></li>
+              </ul>
+            </div>
+            <div class='description'>
+              <h1>{d.title}</h1>
+              <h2>{d.tech}</h2>
+              <p> {d.summary}</p>
+            </div>
+          </div>
+      </div>     
     ))}
 
 
@@ -96,12 +88,12 @@ export default function Portfolio() {
  
 
 
-      {/* <div className="container">
+      {/* <div className='container'>
         {data.map((d) => (
-          <div className="item">
+          <div className='item'>
             <img
               src={d.gif}
-              alt=""
+              alt=''
             />
             <h3>{d.title}</h3>
           </div>

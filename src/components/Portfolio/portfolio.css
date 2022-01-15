@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 96vh;
 }
 h1 {
     padding-top: 1rem;
@@ -18,9 +17,9 @@ ul {
     list-style: none;
     display: flex;
 }
-
-body {
-    background: #f1f1f1;
+.active {
+    background-color: blue;
+    color: white;
 }
 .blog_card_container{
     width: 100%;
@@ -60,7 +59,7 @@ body {
     left: 0;
     background-size: cover;
     background-position: center;
-    transition: transform 0.2s;
+    transition: transform 1s;
 }
 .blog-card .details, .blog-card .details ul {
     display: flex;
@@ -84,27 +83,18 @@ body {
 }
 .blog-card .details a {
     text-decoration: dotted underline;
+    font-size: 20px;
 }
 .blog-card .details ul li {
     display: inline-block;
 }
-.blog-card .details .author:before {
+.blog-card .details .deployedLink:before {
     margin-right: 10px;
-    content: "\f007";
+    content: '\f007';
 }
-.blog-card .details .date:before {
+.blog-card .details .codeLink:before {
     margin-right: 10px;
-    content: "\f133";
-}
-.blog-card .details .tags ul:before {
-    content: "\f02b";
-    margin-right: 10px;
-}
-.blog-card .details .tags li {
-    margin-right: 2px;
-}
-.blog-card .details .tags li:first-child {
-    margin-left: -4px;
+    content: '\f133';
 }
 .blog-card .description {
     padding: 1rem;
@@ -127,25 +117,6 @@ body {
     color: #a2a2a2;
     margin-top: 5px;
 }
-.blog-card .description .read-more {
-    text-align: right;
-}
-.blog-card .description .read-more a {
-    color: #5ad67d;
-    display: inline-block;
-    position: relative;
-}
-.blog-card .description .read-more a:after {
-    content: "\f061";
-    margin-left: -10px;
-    opacity: 0;
-    vertical-align: middle;
-    transition: margin 0.3s, opacity 0.3s;
-}
-.blog-card .description .read-more a:hover:after {
-    margin-left: 5px;
-    opacity: 1;
-}
 .blog-card p {
     position: relative;
     margin: 1rem 0 0;
@@ -154,7 +125,7 @@ body {
     margin-top: 1.25rem;
 }
 .blog-card p:first-of-type:before {
-    content: "";
+    content: '';
     position: absolute;
     height: 5px;
     background: #5ad67d;
@@ -165,10 +136,10 @@ body {
 .blog-card:hover .details {
     left: 0%;
 }
-@media (min-width: 640px) {
+@media (min-width: 600px) {
     .blog-card {
         flex-direction: row;
-        max-width: 700px;
+        max-width: 900px;
    }
     .blog-card .meta {
         flex-basis: 40%;
@@ -179,7 +150,7 @@ body {
    }
     .blog-card .description:before {
         transform: skewX(-3deg);
-        content: "";
+        content: '';
         background: #fff;
         width: 30px;
         position: absolute;
@@ -199,6 +170,12 @@ body {
     .blog-card.alt .details {
         padding-left: 25px;
    }
+}
+
+@media (min-width: 1300px) {
+    #portfolio {
+        height: 100vh;
+    }
 }
 
 

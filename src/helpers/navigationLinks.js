@@ -17,6 +17,6 @@ export const navigationLinks = [
     },
     {
         name: 'CONTACT',
-        ref: '#contact'
+        ref: '#contact-me'
     }
 ]

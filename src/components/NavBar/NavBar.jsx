@@ -18,9 +18,9 @@ function NavBar() {
             style={{ zIndex: '2', textAlign: 'center', position: 'fixed', top: '0', width: '100%'}}
             collapseOnSelect
             expand='md'>
-                <Navbar.Brand href="#home">Welcome.</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Brand href='#home'>Welcome.</Navbar.Brand>
+                <Navbar.Toggle aria-controls='basic-navbar-nav' />
+                <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav className='links'>
                         {createLinks()}
                     </Nav>
