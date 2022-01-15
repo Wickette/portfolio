@@ -6,31 +6,11 @@
     height:100vh;
     background-color: var(--font-color);
 }
+.small-picture{
+    background-image: url('../../assets/images/profile-pic.jpg');
+}
 @media screen and (max-width: 600px) {
     .about_container{
         height: auto;
     }
-}
-.about_container img{
-    border-radius: 50%;
-    border: 0.5px solid rga(218, 218, 218);
-    margin-bottom: 1rem;
-    max-width: 500px;
-    max-height: 500px;
-    object-fit: scale-down;
-}
-.about_text{
-    max-width: 600px;
-}
-
-@media only screen and (max-width: 900px) {
-    .about_container{
-        flex-direction: column;
-    }    
-}
-@media only screen and (max-width: 700px) {
-    .about_text{
-        text-align: center;
-        max-width: 300px;
-    }    
 }
