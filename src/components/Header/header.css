@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .show_bg {
-    background: url('../../assets/images/glitter.gif') no-repeat center center fixed;
+    background: url('../../assets/images/b072b454c263e9ebe2ab3063b4907480.gif') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    opacity: 60%;
+    opacity: 85%;
 }
 .container {
     position: absolute;
