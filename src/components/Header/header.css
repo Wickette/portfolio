@@ -5,16 +5,17 @@
     justify-content: center;
 }
 .show_bg {
-    background: url('../../assets/images/wp9078348-4k-pc-landscape-wallpapers.png') no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient( to bottom, transparent, var(--pale-blue)), url('../../assets/images/6a429af860c91ed307ca581707c21b6c.gif') no-repeat center center fixed; 
+    background-size: cover; 
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    opacity: 70%;
+    opacity: 70%; 
 }
+.bg-vid { position: relative; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
 .container {
     position: absolute;
     display: flex;
@@ -30,7 +31,6 @@
     color: var(--dark-blue); 
     font-family:'Playfair Display', serif; 
     font-weight:900;
-    margin-top: -150px;
 }
 .nine h1 span {
     margin-top: 5px;
