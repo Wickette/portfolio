@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6df2f374.css",
-    "main.js": "/portfolio/static/js/main.5c18ba7e.js",
+    "main.js": "/portfolio/static/js/main.ba9246c4.js",
     "static/media/atouchofspace.gif": "/portfolio/static/media/atouchofspace.928784cef16d2d93cb96.gif",
     "static/media/teachthrutalk.gif": "/portfolio/static/media/teachthrutalk.96b8a2782e380e55de9b.gif",
     "static/media/teamsummarygenerator.gif": "/portfolio/static/media/teamsummarygenerator.d6b16f12b0eafd41fbd5.gif",
@@ -16,7 +16,7 @@
     "static/media/happeningweather.gif": "/portfolio/static/media/happeningweather.b16c884ac72826d99694.gif",
     "static/media/devspace.png": "/portfolio/static/media/devspace.a0254fca48c06f8424ef.png",
     "static/media/teachthrutalk.png": "/portfolio/static/media/teachthrutalk.198d956e04591b609c69.png",
-    "static/media/STEPHANIE_CLARK_CV.pdf": "/portfolio/static/media/STEPHANIE_CLARK_CV.4a3f1676b3d5ac42c063.pdf",
+    "static/media/STEPHANIE_CLARK_CV.pdf": "/portfolio/static/media/STEPHANIE_CLARK_CV.85c6a2368420e86eb201.pdf",
     "static/media/employeemanagement.png": "/portfolio/static/media/employeemanagement.d7cdfa01a74e077f04d4.png",
     "static/media/readmegenerator.png": "/portfolio/static/media/readmegenerator.e6ac1c705fd5715894d5.png",
     "static/media/atouchofspace.png": "/portfolio/static/media/atouchofspace.1e655c300381be7d851e.png",
@@ -29,10 +29,10 @@
     "static/media/phone.png": "/portfolio/static/media/phone.209f85be9a0fcac07ade.png",
     "index.html": "/portfolio/index.html",
     "main.6df2f374.css.map": "/portfolio/static/css/main.6df2f374.css.map",
-    "main.5c18ba7e.js.map": "/portfolio/static/js/main.5c18ba7e.js.map"
+    "main.ba9246c4.js.map": "/portfolio/static/js/main.ba9246c4.js.map"
   },
   "entrypoints": [
     "static/css/main.6df2f374.css",
-    "static/js/main.5c18ba7e.js"
+    "static/js/main.ba9246c4.js"
   ]
 }
