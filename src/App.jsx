@@ -6,13 +6,13 @@ import Tech from './components/Tech/Tech';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
    return (
     <div className='App'>
-      <BrowserRouter>
+      <HashRouter>
       <NavigationBar/>
           <Routes>
               <Route path='/portfolio' element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
               <Route path='/portfolio/portfolio' element={<Portfolio />} />
               <Route path='/portfolio/contact' element={<Contact />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </div>
   );
 }

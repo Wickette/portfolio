@@ -1,7 +1,7 @@
 export const navigationLinks = [
     {
         name: 'HOME',
-        ref: '/portfolio/'
+        ref: '/portfolio'
     },
     {
         name: 'ABOUT ME',
