@@ -15,11 +15,11 @@ function App() {
       <NavigationBar/>
 
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutMe />} />
-            <Route path="/tech" element={<Tech />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Home />} />
+            <Route path="/portfolio/about" element={<AboutMe />} />
+            <Route path="/portfolio/tech" element={<Tech />} />
+            <Route path="/portfolio/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio/contact" element={<Contact />} />
           </Routes>
 
     </div>
