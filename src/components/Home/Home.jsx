@@ -1,6 +1,6 @@
 import React from 'react'
 import resume from '../../assets/STEPHANIE_CLARK_CV.pdf'
-import './header.css'
+import './home.css'
 import BgVideo from '../../assets/images/Laser_circle1.mp4'
 
 const Header = () => {
