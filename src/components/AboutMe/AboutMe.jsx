@@ -28,7 +28,7 @@ const AboutMe = () => {
             </p>
             <div className='pt-12 pb-8'>
               <button className='get-in-touch font-bold py-2 px-4 rounded-full'>
-                <a className='' href="#contact-me"> Get In Touch </a>
+                <a className='' href="/contact"> Get In Touch </a>
               </button>
             </div>
           </div>
