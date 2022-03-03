@@ -6,22 +6,22 @@ import Tech from './components/Tech/Tech';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 import React from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
    return (
     <div className='App'>
-      <HashRouter>
+      <Router basename='/'>
       <NavigationBar/>
           <Routes>
-              <Route path='/portfolio' element={<Home />} />
-              <Route path='/portfolio/about' element={<AboutMe />} />
-              <Route path='/portfolio/tech' element={<Tech />} />
-              <Route path='/portfolio/portfolio' element={<Portfolio />} />
-              <Route path='/portfolio/contact' element={<Contact />} />
+              <Route exact path='/' element={<Home />} />
+              <Route path='/about' element={<AboutMe />} />
+              <Route path='/tech' element={<Tech />} />
+              <Route path='/portfolio' element={<Portfolio />} />
+              <Route path='/contact' element={<Contact />} />
           </Routes>
-        </HashRouter>
+        </Router>
     </div>
   );
 }
