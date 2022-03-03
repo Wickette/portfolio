@@ -1,22 +1,22 @@
 export const navigationLinks = [
     {
         name: 'HOME',
-        ref: '/main/'
+        ref: '/portfolio/'
     },
     {
         name: 'ABOUT ME',
-        ref: '/main/about'
+        ref: '/portfolio/about'
     },
     {
         name: 'TECHNOLOGIES',
-        ref: '/main/tech'
+        ref: '/portfolio/tech'
     },
     {
         name: 'PORTFOLIO',
-        ref: '/main/portfolio'
+        ref: '/portfolio/portfolio'
     },
     {
         name: 'CONTACT',
-        ref: '/main/contact'
+        ref: '/portfolio/contact'
     }
 ]
